@@ -1,5 +1,18 @@
-node_modules
-.env
-dist
+# configuration file
 config.json
+
+# Dependencies
+node_modules
+
+# build and generate output dirs
+dist
+
+# Don't add vscode or idea meta files
+.vscode
+.idea
+
+# Don't add DS_Store
 .DS_Store
+
+# env
+.env
